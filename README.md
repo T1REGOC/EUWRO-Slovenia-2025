@@ -34,11 +34,23 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
 - Yellow TT Gear Motor
+- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
+
 - HC - SRO4 ultrazvučni senzor (x6)
+- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
+
 - Raspberry Pi Camera v2
+- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
+
 - DHT22
+  <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
+
 - Arduino Uno
-- Raspbbery Pi 4 
+- <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
+
+- Raspbbery Pi 4
+- <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/33665a85-cf07-4388-9a5e-13e3dc11a9d0" />
+
 
 # MOBILITY MANAGMENT
 Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
