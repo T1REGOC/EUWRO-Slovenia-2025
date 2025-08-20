@@ -79,6 +79,33 @@ As for the competition at the national championship in Samobor, we will use a po
 
 # ASSEMBLY INSTRUCTIONS
 ## HARDWARE
+
+### PLATFORM
+<br>
+Place the front / back platform next to the middle one so that the holes for the screwes corespond and then screw it. 
+<br>
+### DRIVE
+1. Install the motor inside his holder.
+    - Put the motor in the holder and screw it.
+    - Don't screw the holder to the platform!
+2. Insert the small gear in the holder and the motor shaft on the other end.
+3. Install the motor to the platform.
+4. Big gear preparation
+    - Take the two shafts and insert them in the gear until they are connected.
+    - Put the cards on the shaft ( 2 on each side) corespondingly to the card holder holders.
+5. Lower the big gear with card holders in their place.
+6. Screw the cards to their holders.
+7. Place the wheels at the end of the shaft.
+<br><br>
+### STEERING
+1. Place the servo in its place and screw it.
+2. Place the left and the right arms in their position
+3. Place the connector so that it captures both the left and the right arm.
+4. Cover them up with coresponding covers.
+5. Place the servo addon so that it connects from the middle of the connector to the servo.
+
+
+
 ## SOFTWARE
 #### 1. Arduino Uno
 1. Arduino IDE
