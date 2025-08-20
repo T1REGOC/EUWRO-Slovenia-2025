@@ -80,11 +80,11 @@ As for the competition at the national championship in Samobor, we will use a po
 # ASSEMBLY INSTRUCTIONS
 ## HARDWARE
 
-### PLATFORM
+### 1. PLATFORM
 Place the front / back platform next to the middle one so that the holes for the screwes corespond and then screw it. 
 <br>
 
-### DRIVE
+### 2. DRIVE
 1. Install the motor inside his holder.
     - Put the motor in the holder and screw it.
     - Don't screw the holder to the platform!
@@ -98,7 +98,7 @@ Place the front / back platform next to the middle one so that the holes for the
 7. Place the wheels at the end of the shaft.
 <br><br>
 
-### STEERING
+### 3. STEERING
 1. Place the servo in its place and screw it.
 2. Place the left and the right arms in their position
 3. Place the connector so that it captures both the left and the right arm.
