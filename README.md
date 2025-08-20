@@ -32,7 +32,7 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 # ENGINEERING MATERIALS
 
 # MOBILITY MANAGMENT
-Considering we 3d designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
+Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
 
 The round pillars that rise from the pplatforms are holders for OUR OWN PCB. 
 
