@@ -30,6 +30,15 @@ it passes the pillars either from the left or the right. Once the 3 laps are com
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
 
 # ENGINEERING MATERIALS
+- Servo SG90
+<img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
+
+- Yellow TT Gear Motor
+- HC - SRO4 ultrazvučni senzor (x6)
+- Raspberry Pi Camera v2
+- DHT22
+- Arduino Uno
+- Raspbbery Pi 4 
 
 # MOBILITY MANAGMENT
 Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
