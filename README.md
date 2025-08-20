@@ -4,8 +4,11 @@
 | Section  | Explanation |
 | --  | -- | 
 | [PROBLEM](#problem)  | Adressing the task of the competition. |
-| [ENGINEERING MATERIALS](#engineeringmaterials)  | The list of everything we used. |
-| [MOBILITY MANAGMENT](#mobilitymanagment)  | [Driving](#driving), [steering](#steering)| 
+| [ENGINEERING MATERIALS](#engineering-materials)  | The list of everything we used. |
+| [MOBILITY MANAGMENT](#mobility-managment)  | [Driving](#driving), [steering](#steering)| 
+| [POWER AND SENSE MANAGMENT](#power-and-sense-managment)  |  [Power supply](#power-supply),[sensorics](#sensorics)  |
+| [PICUTRES](#pictures)  |  [Team pictures](#team-pictures),[vehicle pictures](#vehicle-pictures)  |
+| [ASSEMBLY INSTRUCIONS ](#assembly-instructions)  |  [hardware](#hardaware),[software](#software)  | 
 
 
 
