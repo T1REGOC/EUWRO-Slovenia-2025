@@ -11,9 +11,9 @@
 | [ASSEMBLY INSTRUCIONS ](#assembly-instructions)  |  [Hardware](#hardware), [software](#software)  | 
 | ---| --- |
 | [3D FILES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/3d%20Models)| Files of our robot. |
-| [src](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/src) |Code. |
-| [Schemes](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/schemes)| Schemes of...  |
-| [Videos](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/videos)| Videos of our robot. |
+| [SRC](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/src) |Code. |
+| [SCHEMES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/schemes)| Schemes of...  |
+| [VIDEOS](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/videos)| Videos of our robot. |
 
 
 
