@@ -13,15 +13,14 @@
 
 
 # PROBLEM
-The goal of the Future Engineers WRO category is to design a fully autonomous vehicle that completes two different challenges in 3 minutes. The direction of the vehicles movement and the interior walls position and size
-is randomized before the start of the round, so thevehicle should recognise wether to turn left or right by himself. 
+The goal of the Future Engineers WRO category is to design a fully autonomous vehicle that completes two different challenges in 3 minutes. The direction of the vehicles movement, interior walls position and their size in both challenges is randomized before the start of the round, so the vehicle should recognize whether to turn left or right by itself. 
 
 OPEN CHALLENGE
-In the open challenge, once the robot starts, its goal is to complete 3 laps around the map while avoiding the walls. 
+In the open challenge, once the robot starts, its goal is to complete 3 laps around the map while avoiding the walls and finish in the same zone it started in.
 
 OBSTACLE CHALLENGE 
-In the obstacle challenge, once the robot starts, its goal is to complete 3 laps through red and green pillars while also avoiding walls. Depending on the color 
-it passes the pillars either from the left or the right. Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previosly set
+In the obstacle challenge, once the robot starts, its goal is again to complete 3 laps but now other than avoiding walls it has to avoid red and green pillars which are in the way. Depending on the color 
+it passes the pillars either from the left or the right. Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
 
 # ENGINEERING MATERIALS
