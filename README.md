@@ -15,11 +15,11 @@
 # PROBLEM
 The goal of the Future Engineers WRO category is to design a fully autonomous vehicle that completes two different challenges in 3 minutes. The direction of the vehicles movement, interior walls position and their size in both challenges is randomized before the start of the round, so the vehicle should recognize whether to turn left or right by itself. 
 This is our playfield:
-
+<br>
     
 <img width="1316" height="764" alt="image" src="https://github.com/user-attachments/assets/6487d5d0-3245-413a-9d87-16ab59b773b3" />
 
-    
+    <br>
 OPEN CHALLENGE
 In the open challenge, once the robot starts, its goal is to complete 3 laps around the map while avoiding the walls and finish in the same zone it started in.
 
@@ -61,7 +61,7 @@ drive wheels start to spin.
   
   
   
-  
+  <br><br><br>
 Here it is al together:
 
 <img width="994" height="624" alt="image" src="https://github.com/user-attachments/assets/060c660a-1203-42e8-9e4f-b50d84e08cf1" />
@@ -71,6 +71,7 @@ Here it is al together:
 
 # POWER AND SENSE MANAGMENT
 ## POWER SUPPLY
+As for the competition at the national championship in Samobor, we will use a portable charger to power our autonomous robot. The charger we use is small so it will not take up too much space on the robot. This charger also has an on/off button, which can be used to turn the robot on and off. This charger outputs 5V and 3A, which is ideal for powering our autonomous robot. Portable chargers also use a BMS (battery management system) which ensures that the battery is safe and reliable. With the BMS, we can see things like battery charge, battery capacity, and we can get feedback about any problems with the battery. Our charger has a light indicator for battery charge. BMS is also used to balance cells (if some are discharged or overcharged), prevents overvoltage, underdischarge, overcurrent, and overheating.
 ## SENSORICS
 
 # PICTURES
