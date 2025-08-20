@@ -47,7 +47,7 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
     - Download and install the official Arduino IDE from [https://www.arduino.cc/en/software]
     - This software allows you to write code(called sketches), compile them, and upload them to your Arduino board
 
-    2. Setup
+    ** Setup **
     - Connect the Arduino Uno to your computer using a USB cable
     - Open the Arduino IDE and select your board:
         - Go to Tools - Board - Arduino AVR Boards - Arduino Uno
