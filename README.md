@@ -28,6 +28,14 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 
 # MOBILITY MANAGMENT
 ## DRIVING
+For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. We stabillised it to the platform by designing a holder for it. <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/ceb0f947-6aaa-476d-9812-c02ed115eb3f" />
+With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission. We used [helix gears](https://www.google.com/search?q=helix+gears&ie=UTF-8) so that
+they do not skip and have tighter grip. To the second, bigger gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. 
+At the ends of those shafts is a rectangular shaft so that we avoid the shaft spining and not rotating the wheel. 
+
+Here it is all together:
+<img width="984" height="723" alt="image" src="https://github.com/user-attachments/assets/dc01d511-1438-4414-9b53-da198ae68498" /> 
+
 ## STEERING
 
 
