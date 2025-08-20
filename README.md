@@ -49,7 +49,8 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
 
 - Raspbbery Pi 4
-<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/33665a85-cf07-4388-9a5e-13e3dc11a9d0" />
+<img width="225" height="200" alt="image" src="https://github.com/user-attachments/assets/1a91165c-ba4a-4d1d-a9f9-3d6a9ce4c3ae" />
+
 
 
 # MOBILITY MANAGMENT
