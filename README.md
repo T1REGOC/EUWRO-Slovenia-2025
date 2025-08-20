@@ -1,4 +1,4 @@
-# REGOČ|EUWRO-Slovenia
+# REGOČ | EUWRO-Slovenia
 ## TABLE OF CONTENT
 
 | Section  | Explanation |
