@@ -79,10 +79,9 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
     - nano - text editor used to open the file
     - /etc/rc.local - a script that runs automatically at the end of every boot process on Linux
 
-    - Now you will want to add the line:
-     ```bash
-     sudo bash -c 'sudo python3 /home/pi/<<directory>>/<<filename.py>>' &
-     ```
+    - Now you will want to add the line
+     `sudo bash -c 'sudo python3 /home/pi/<<directory>>/<<filename.py>>' &` before the line `exit 0` and save and close
+     
 
     Explanation:
     - sudo - run as root(administrator)
