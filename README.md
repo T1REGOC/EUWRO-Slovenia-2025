@@ -81,9 +81,9 @@ As for the competition at the national championship in Samobor, we will use a po
 ## HARDWARE
 
 ### PLATFORM
-<br>
 Place the front / back platform next to the middle one so that the holes for the screwes corespond and then screw it. 
 <br>
+
 ### DRIVE
 1. Install the motor inside his holder.
     - Put the motor in the holder and screw it.
@@ -97,6 +97,7 @@ Place the front / back platform next to the middle one so that the holes for the
 6. Screw the cards to their holders.
 7. Place the wheels at the end of the shaft.
 <br><br>
+
 ### STEERING
 1. Place the servo in its place and screw it.
 2. Place the left and the right arms in their position
