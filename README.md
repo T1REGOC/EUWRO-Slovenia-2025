@@ -10,7 +10,7 @@
 | [PICUTRES](#pictures)  |  [Team pictures](#team-pictures), [vehicle pictures](#vehicle-pictures)  |
 | [ASSEMBLY INSTRUCIONS ](#assembly-instructions)  |  [Hardware](#hardware), [software](#software)  | 
 | Other |
-| [3D FILES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/3d%20Models)  | |
+| [3D FILES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/3d%20Models)  |
 
 
 
