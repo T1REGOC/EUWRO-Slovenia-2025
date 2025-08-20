@@ -9,8 +9,10 @@
 | [POWER AND SENSE MANAGMENT](#power-and-sense-managment)  |  [Power supply](#power-supply),[sensorics](#sensorics)  |
 | [PICUTRES](#pictures)  |  [Team pictures](#team-pictures), [vehicle pictures](#vehicle-pictures)  |
 | [ASSEMBLY INSTRUCIONS ](#assembly-instructions)  |  [Hardware](#hardware), [software](#software)  | 
-| Other |
-| [3D FILES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/3d%20Models)  |
+| ---| --- |
+| [3D FILES](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/3d%20Models)| Files of our robot. |
+| [Schemes](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/schemes)| Schemes of...  |
+| [Videos](https://github.com/T1REGOC/EUWRO-Slovenia-2025/tree/main/videos)| Videos of our robot. |
 
 
 
