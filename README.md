@@ -1,7 +1,34 @@
-# EUWRO-Slovenia-2026
+# EUWRO-Slovenia
 
-[link](https://www.youtube.com/shorts/fztai0n1el8)
-
-
+[TASK](#task)
 
 
+bghjrfffffffffff
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+
+h
+h
+h
+
+h
+h
+h
+h
+h
+## TASK
