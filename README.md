@@ -29,6 +29,10 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 # ENGINEERING MATERIALS
 
 # MOBILITY MANAGMENT
+Considering we 3d designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
+
+The round pillars that rise from the pplatforms are holders for OUR OWN PCB. 
+
 ## DRIVING
 For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. We stabillised it to the platform by designing a holder for it. 
 With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission. We used [helix gears](https://www.google.com/search?q=helix+gears&ie=UTF-8) so that
@@ -40,6 +44,21 @@ Here it is all together:
 <img width="984" height="723" alt="image" src="https://github.com/user-attachments/assets/dc01d511-1438-4414-9b53-da198ae68498" /> 
 
 ## STEERING
+For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it seemed more stable than pivot point turning or others. 
+This is an example of the Ackermann's steering system.
+<img width="1379" height="507" alt="image" src="https://github.com/user-attachments/assets/dc9a3a80-8cbf-4347-83f5-d468f4b4e1aa" />
+
+You design a servo addon that rotates the middle shaft. The two side arms are pivotted at one point and on the other connected to the middle shaft. On the arms go wheels. Then just cover it up so that the force doesn't bring it all up. 
+
+Considering that upfront we don't have driving power, the wheels must be able to rotate freely. So the shaft that they go on is a bit lose, so the wheels have the abilty to rotate and then just tighten it up with a designed screw. The wheels will spin when the 
+drive wheels start to spin 
+<img width="757" height="528" alt="image" src="https://github.com/user-attachments/assets/63f58725-53cf-4815-b6b5-5b74bd32e480" />
+
+
+Here it is al together:
+<img width="994" height="624" alt="image" src="https://github.com/user-attachments/assets/060c660a-1203-42e8-9e4f-b50d84e08cf1" />
+
+
 
 
 # POWER AND SENSE MANAGMENT
