@@ -34,22 +34,22 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
 - Yellow TT Gear Motor
-- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
 - HC - SRO4 ultrazvučni senzor (x6)
-- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
 
 - Raspberry Pi Camera v2
-- <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
 
 - DHT22
-  <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
 
 - Arduino Uno
-- <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
 
 - Raspbbery Pi 4
-- <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/33665a85-cf07-4388-9a5e-13e3dc11a9d0" />
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/33665a85-cf07-4388-9a5e-13e3dc11a9d0" />
 
 
 # MOBILITY MANAGMENT
