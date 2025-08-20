@@ -64,7 +64,7 @@ drive wheels start to spin.
 Here it is all together:
 
 <img width="994" height="624" alt="image" src="https://github.com/user-attachments/assets/060c660a-1203-42e8-9e4f-b50d84e08cf1" />
-
+<br><br><br>
 
 
 
@@ -72,11 +72,11 @@ Here it is all together:
 ## POWER SUPPLY
 As for the competition at the national championship in Samobor, we will use a portable charger to power our autonomous robot. The charger we use is small so it will not take up too much space on the robot. This charger also has an on/off button, which can be used to turn the robot on and off. This charger outputs 5V and 3A, which is ideal for powering our autonomous robot. Portable chargers also use a BMS (battery management system) which ensures that the battery is safe and reliable. With the BMS, we can see things like battery charge, battery capacity, and we can get feedback about any problems with the battery. Our charger has a light indicator for battery charge. BMS is also used to balance cells (if some are discharged or overcharged), prevents overvoltage, underdischarge, overcurrent, and overheating.
 ## SENSORICS
-
+<br><br><br>
 # PICTURES
 ## TEAM PICTURES
 ## VEHICLE PICTURES
-
+<br><br><br>
 # ASSEMBLY INSTRUCTIONS
 ## HARDWARE
 
@@ -104,7 +104,7 @@ Place the front / back platform next to the middle one so that the holes for the
 3. Place the connector so that it captures both the left and the right arm.
 4. Cover them up with coresponding covers.
 5. Place the servo addon so that it connects from the middle of the connector to the servo.
-
+<br><br><br>
 
 
 ## SOFTWARE
