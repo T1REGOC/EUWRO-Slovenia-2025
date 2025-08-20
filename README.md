@@ -18,8 +18,10 @@ This is our playfield:
 
 <img width="1316" height="764" alt="image" src="https://github.com/user-attachments/assets/6487d5d0-3245-413a-9d87-16ab59b773b3" />
 
+
 OPEN CHALLENGE
 In the open challenge, once the robot starts, its goal is to complete 3 laps around the map while avoiding the walls and finish in the same zone it started in.
+
 
 OBSTACLE CHALLENGE 
 In the obstacle challenge, once the robot starts, its goal is again to complete 3 laps but now other than avoiding walls it has to avoid red and green pillars which are in the way. Depending on the color 
@@ -46,16 +48,19 @@ Here it is all together:
 ## STEERING
 For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it seemed more stable than pivot point turning or others. 
 This is an example of the Ackermann's steering system.
+
 <img width="1379" height="507" alt="image" src="https://github.com/user-attachments/assets/dc9a3a80-8cbf-4347-83f5-d468f4b4e1aa" />
 
 You design a servo addon that rotates the middle shaft. The two side arms are pivotted at one point and on the other connected to the middle shaft. On the arms go wheels. Then just cover it up so that the force doesn't bring it all up. 
 
 Considering that upfront we don't have driving power, the wheels must be able to rotate freely. So the shaft that they go on is a bit lose, so the wheels have the abilty to rotate and then just tighten it up with a designed screw. The wheels will spin when the 
-drive wheels start to spin 
+drive wheels start to spin.
+
 <img width="757" height="528" alt="image" src="https://github.com/user-attachments/assets/63f58725-53cf-4815-b6b5-5b74bd32e480" />
 
 
 Here it is al together:
+
 <img width="994" height="624" alt="image" src="https://github.com/user-attachments/assets/060c660a-1203-42e8-9e4f-b50d84e08cf1" />
 
 
