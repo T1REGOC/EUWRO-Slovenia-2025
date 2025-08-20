@@ -47,16 +47,16 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
     - Download and install the official Arduino IDE from [https://www.arduino.cc/en/software]
     - This software allows you to write code(called sketches), compile them, and upload them to your Arduino board
 
-    ** Setup **
+    **Setup**
     - Connect the Arduino Uno to your computer using a USB cable
     - Open the Arduino IDE and select your board:
         - Go to Tools - Board - Arduino AVR Boards - Arduino Uno
 
-    3. Uploading the program
+    **Uploading the program**
     - Open the sketch you want to run, for this robot specifically you want the one that says "THIS RUNS ON THE ARDUINO UNO"
     - Click the Upload button and the IDE will compile the code and upload it to the Arduino
     
-    4. Auto-running the program
+    **Auto-running the program**
     - Once the code is uploaded the sketch is stored in the Arduino memory
     - Whenever the board is powered, the program will automatically start running, therefore you dont need any additional setup
     The Arduino Uno is successfully setup!
@@ -67,11 +67,11 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
     - This software will allow you to download and write various operating systems to a microSD card
     - In this case you want to choose Raspbian on the Operating System tab, and then choose your desired SD Card. When the OS is written on the SD Card you will want to insert it into the SD Card compartment on the Raspberry Pi 4
 
-    2. Setup
+    **Setup**
     - You can either connect the Raspberry Pi to a monitor using its micro HDMI output or do everything with VNC(without contact). Since using a monitor and a micro HDMI cable is more intuitive you can use that option.
     - Now you will want to transfer the codes that say "THIS RUNS ON THE RASPBERRY PI" onto the Raspberry Pi 4.
 
-    3. Auto-running the program on start
+    **Auto-running the program on start**
     - Open command prompt and run `sudo nano /etc/rc.local`
     
     Explanation:
