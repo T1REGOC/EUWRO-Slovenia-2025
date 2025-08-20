@@ -43,7 +43,7 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 ## HARDWARE
 ## SOFTWARE
 #### 1. Arduino Uno
-    1. Arduino IDE
+1. Arduino IDE
     - Download and install the official Arduino IDE from [https://www.arduino.cc/en/software]
     - This software allows you to write code(called sketches), compile them, and upload them to your Arduino board
 
@@ -62,7 +62,7 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
     The Arduino Uno is successfully setup!
 
 #### 2. Raspberry Pi 4
-    1. Raspberry Pi OS
+1. Raspberry Pi OS
     - Download and install the official Raspberry Pi Imager from[https://www.raspberrypi.com/software/]
     - This software will allow you to download and write various operating systems to a microSD card
     - In this case you want to choose Raspbian on the Operating System tab, and then choose your desired SD Card. When the OS is written on the SD Card you will want to insert it into the SD Card compartment on the Raspberry Pi 4
