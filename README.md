@@ -1,34 +1,30 @@
-# EUWRO-Slovenia
+### EUWRO-Slovenia
+## TABLE OF CONTENT
+| Section  | Explanation | 
+| [PROBLEM](#problem)  | Adressing the task of the competition. |
+| [ENGINEERING MATERIALS](#engineeringmaterials)  | The list of everything we used. |
+| [MOBILITY MANAGMENT](#mobilitymanagment)  | [Driving](#driving), [steering](#steering)| 
 
-[TASK](#task)
 
 
-bghjrfffffffffff
-h
-h
-h
-h
-h
-h
+## PROBLEM
 
-h
-h
-h
-h
-h
+## ENGINEERING MATERIALS
 
-h
-h
-h
-h
+## MOBILITY MANAGMENT
+# DRIVING
+# STEERING
 
-h
-h
-h
 
-h
-h
-h
-h
-h
-## TASK
+## POWER AND SENSE MANAGMENT
+# POWER SUPPLY
+# SENSORICS
+
+## PICTURES
+# TEAM PICTURES
+# VEHICLE PICTURES
+
+## ASSEMBLY INSTRUCTIONS
+# HARDWARE
+# SOFTWARE
+
