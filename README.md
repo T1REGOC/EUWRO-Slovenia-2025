@@ -119,6 +119,10 @@ Additionally, we incorporated a DHT11 sensor to measure ambient temperature and 
 ---
 # PICTURES
 ## TEAM PICTURES
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9df28bd2-ff29-4a23-af98-29138cdcc5b7" />
+Left: David 
+Middle: Gabriel
+Right: Vedran
 ## VEHICLE PICTURES
 Back
 
