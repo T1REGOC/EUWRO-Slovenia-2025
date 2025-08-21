@@ -42,13 +42,13 @@ parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle ma
 - Yellow TT Gear Motor
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
-- HC - SRO4 ultrazvučni senzor (x6)
+- HC - SRO4 Ultrasonic sensor (x6)
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
 
 - Raspberry Pi Camera v2
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
 
-- DHT22
+- DHT11
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
 
 - Arduino Uno
