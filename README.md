@@ -110,7 +110,7 @@ Back
 
 Bottom
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/c7ef07c7-b1bf-47fe-8ef7-7cdf9aff0da4" />
+<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/c7ef07c7-b1bf-47fe-8ef7-7cdf9aff0da4" />
 
 
 Left
@@ -125,7 +125,7 @@ Right
 
 Top
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/657b4ef5-ecfd-4628-8562-ccc09c78c346" />
+<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/657b4ef5-ecfd-4628-8562-ccc09c78c346" />
 
 
 
