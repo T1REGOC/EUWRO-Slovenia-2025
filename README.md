@@ -99,8 +99,19 @@ Here it is all together:
 # POWER AND SENSE MANAGMENT
 ## POWER SUPPLY
 As for the competition at the national championship in Samobor, we will use a portable charger to power our autonomous robot. The charger we use is small so it will not take up too much space on the robot. This charger also has an on/off button, which can be used to turn the robot on and off. This charger outputs 5V and 3A, which is ideal for powering our autonomous robot. Portable chargers also use a BMS (battery management system) which ensures that the battery is safe and reliable. With the BMS, we can see things like battery charge, battery capacity, and we can get feedback about any problems with the battery. Our charger has a light indicator for battery charge. BMS is also used to balance cells (if some are discharged or overcharged), prevents overvoltage, underdischarge, overcurrent, and overheating.
+---
 ## SENSORICS
+**Selection**
+The selection of sensors for our project was carried out systematically. For each potential component, we carefully considered not only its advantages but also every possible limitation or drawback it could introduce. This iterative process—selecting, evaluating, and refining—ensured that the final sensor set was both practical and effective for our goals.
 
+**Ultrasonic sensors**
+One of the key design decisions was to integrate two ultrasonic sensors, positioned on both sides of the robot instead of relying on a single unit. This configuration allows the robot to align itself precisely with walls, which can then be leveraged for autonomous steering without depending solely on the camera system. By doing so, we enhanced both the reliability and independence of the navigation process.
+
+**Digital Temperature and Humidity sensor**
+Additionally, we incorporated a DHT11 sensor to measure ambient temperature and humidity. These values directly influence the speed of sound in air, and by accounting for them, we can improve the accuracy of distance measurements from the ultrasonic sensors. This consideration highlights the importance we placed on precision and robustness in the sensor design. Therefore instead of the fixed speed of sound at 343m/s we made it a variable, and this is the formula we used:
+`Speed_of_sound(m/s) = 331.4 + 0.6 * temperature(°C) + 0.0124 * Humidity(%)`
+
+---
 # PICTURES
 ## TEAM PICTURES
 ## VEHICLE PICTURES
