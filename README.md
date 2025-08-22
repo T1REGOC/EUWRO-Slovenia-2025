@@ -28,13 +28,26 @@ This is our playfield:
 <br><br>
 ### OPEN CHALLENGE
 In the open challenge, once the robot starts, its goal is to complete 3 laps around the map while avoiding the walls and finish in the same zone it started in.
+For the Open Challenge we use ultrasonic sensors to make sure the vehicle is centered at all times, that is why we have ultrasonic sensors on both sides, and while the vehicle is centering it also looks for a pattern using the camera.
+We needed to take a loop at the map again:
+<img width="551" height="558" alt="image" src="https://github.com/user-attachments/assets/5d573bdf-6fd6-4d35-8240-af510e401224" />
 
+By thinking a little bit you can see that if your direction is clockwise you will pass the lines always going orange first and then blue, but if you are going counter-clockwise you will always go blue first and then orange. We did not recognize this at first, but after a few months of working on the robot it was almost like a key, because our most unpredictable sensor from the last robot(the color sensor APDS-9960) did not give accurate results so we would want to remove it in this one. That is when we got the idea that the passing of the lines(orange-blue or blue-orange) is a pattern and we could use tensorflow for that because what is a machine learning model best at? You're right, looking for patterns. Using tensorflow we would make a model that had these possible outputs(orange-blue, blue-orange or none), it is pretty straight-forward to how we would adapt looking at the output, if the camera saw orange-blue it steers right, blue-orange it steers left, then we count the times that we passed the lines and when it hit 12(3 laps) we stop.
 
 ### OBSTACLE CHALLENGE 
 In the obstacle challenge, once the robot starts, its goal is again to complete 3 laps but now other than avoiding walls it has to avoid red and green pillars which are in the way. Depending on the color 
 it passes the pillars either from the left or the right. Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
-
+So how did we do it? We first thought about using just RGB and opencv, but we researched about the color formats and we did not want to use RGB after that because we found the superior one: HSV(Hue, Saturation, Value). So you might ask why we use this instead of RGB, its simple:
+1. It seperates color(hue) from brightness(value) and saturation.
+2. It is more robust to lighting changes than RGB.
+3. It makes it easier to define color ranges for masking
+4. RGB mixes color and brightness, so the same color can look very different under different lighting.
+HSV allowed us to filter by hue, making color detection more reliable. But we dont want to solely depend on just opencv, we want to make it both more reliable and more educational therefore we added tensorflow. This time we made a model with tensorflow that looked for green or red pillars, so then in the code we made it so even though opencv saw the pillar it has no power because tensorflow was our priority. So the only way that a pillar would be detected and accepted is for our tensorflow model to find it.
+Now we fixed the problem with the pillars, we gotta get the parking right, for parking we use ultrasonic sensors and also decided to use 2 instead of 1 ultrasonic sensors on the sides(you will see why in a bit), so depending on what is our steering side the parking will always be opposite(if you steer right the parking is on the left) and we would use that to our advantage, so for the parking after the last steering we would "line up" the vehicle for parking by looking at the differences of distance that the ultrasonic sensors give on the same side, so for example if the vehicle is at a 30 degree angle from the wall back sensor would give 3cm and the front one would be 8cm, what we would do in this scenario is steer the vehicle depending on which number is bigger and which side it was, and we would do this until the difference would be under 2cm.
+#### PARKING
+Now that we are lined up to the wall we dont want to steer until we actually need to park in, so now we look for the parking also using ultrasonic sensors but now looking solely on the back side sensor, why? Because the parking walls are 20cm wide and passing by our sensor would see this(25,25,27,28,28,2,2,28) so if you dont understand those would be the example readings from the sensor and we knew when we hit the parking spot when we would hit a "drastic change" often going in a number that is under 10cm, but we cant steer yet because we hit the first part of the parking and we want to parralel park so we need to hit the second part of the parking, we just go straight and look for another drastic change again, when we see it that means that the back side sensor(almost where the back wheels are) is at the second part of the parking, so now we reverse and steer until our back sensor hits under 5cm and then go forward and steer to line up.
+   
 # ENGINEERING MATERIALS
 - Servo SG90 ( Why we chose it: reliable, small, previusly available to us )
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
