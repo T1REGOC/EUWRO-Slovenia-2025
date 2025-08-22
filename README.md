@@ -110,6 +110,11 @@ Here it is all together:
 
 
 # POWER AND SENSE MANAGMENT
+
+Electrical scheme
+
+<img width="900" height="900" alt="Untitled" src="https://github.com/user-attachments/assets/69ee1bd4-e610-4a38-9e00-23bfae7f1f4f" />
+
 ## POWER SUPPLY
 As for the competition at the national championship in Samobor, we will use a portable charger to power our autonomous robot. The charger we use is small so it will not take up too much space on the robot. This charger also has an on/off button, which can be used to turn the robot on and off. This charger outputs 5V and 3A, which is ideal for powering our autonomous robot. Portable chargers also use a BMS (battery management system) which ensures that the battery is safe and reliable. With the BMS, we can see things like battery charge, battery capacity, and we can get feedback about any problems with the battery. Our charger has a light indicator for battery charge. BMS is also used to balance cells (if some are discharged or overcharged), prevents overvoltage, underdischarge, overcurrent, and overheating.
 
@@ -117,7 +122,8 @@ As for the competition at the national championship in Samobor, we will use a po
 ## SENSORICS
 
 - Selection
-<img width="467" height="194" alt="image" src="https://github.com/user-attachments/assets/efe5de27-79d6-4712-99be-122802933e9e" />
+<img width="468" height="196" alt="image" src="https://github.com/user-attachments/assets/6ffb2ff1-3bfd-4062-a7c1-46323790c880" />
+
 
 
   
