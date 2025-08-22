@@ -102,6 +102,8 @@ As for the competition at the national championship in Samobor, we will use a po
 
 ---
 ## SENSORICS
+<img width="467" height="194" alt="image" src="https://github.com/user-attachments/assets/efe5de27-79d6-4712-99be-122802933e9e" />
+
 - Selection
   
 The selection of sensors for our project was carried out systematically. For each potential component, we carefully considered not only its advantages but also every possible limitation or drawback it could introduce. This iterative process—selecting, evaluating, and refining—ensured that the final sensor set was both practical and effective for our goals.
