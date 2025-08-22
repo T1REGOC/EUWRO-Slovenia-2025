@@ -1,6 +1,6 @@
 # REGOČ | EUWRO-Slovenia
 
-<img width="955" height="604" alt="image" src="https://github.com/user-attachments/assets/b93ddc89-642f-4dbf-a523-41f3943e0fa1" />
+<img width="755" height="4000" alt="image" src="https://github.com/user-attachments/assets/b93ddc89-642f-4dbf-a523-41f3943e0fa1" />
 
 ## TABLE OF CONTENT
 
