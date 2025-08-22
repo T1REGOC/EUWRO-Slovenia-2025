@@ -36,10 +36,10 @@ it passes the pillars either from the left or the right. Once the 3 laps are com
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
 
 # ENGINEERING MATERIALS
-- Servo SG90
+- Servo SG90 ( Why we chose it: reliable, small, previusly available to us )
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
-- Yellow TT Gear Motor
+- Yellow TT Gear Motor ( Why we chose it: enough torque, previously available to us, reliable ) 
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
 - HC - SRO4 Ultrasonic sensor (x6)
@@ -102,9 +102,11 @@ As for the competition at the national championship in Samobor, we will use a po
 
 ---
 ## SENSORICS
-<img width="467" height="194" alt="image" src="https://github.com/user-attachments/assets/efe5de27-79d6-4712-99be-122802933e9e" />
 
 - Selection
+<img width="467" height="194" alt="image" src="https://github.com/user-attachments/assets/efe5de27-79d6-4712-99be-122802933e9e" />
+
+
   
 The selection of sensors for our project was carried out systematically. For each potential component, we carefully considered not only its advantages but also every possible limitation or drawback it could introduce. This iterative process—selecting, evaluating, and refining—ensured that the final sensor set was both practical and effective for our goals.
 
