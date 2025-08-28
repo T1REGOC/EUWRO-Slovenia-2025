@@ -1,18 +1,11 @@
+This is a completely new, special repository made just for the competition in Slovenia, but here is an older version:
+
+https://github.com/T1REGOC/WRO-2025-Season
+
 # REGOČ | EUWRO-Slovenia
 
 <center><img width="1000" height="550" alt="image" src="https://github.com/user-attachments/assets/b93ddc89-642f-4dbf-a523-41f3943e0fa1" /> <center>
 
-
-
-
-
-
-
-
-
-This is a completely new, special repository made just for the competition in Slovenia, but here is an older version:
-
-https://github.com/T1REGOC/WRO-2025-Season
 
 ## TABLE OF CONTENT
 
