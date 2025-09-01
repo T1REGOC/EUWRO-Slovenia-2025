@@ -151,9 +151,14 @@ Additionally, we incorporated a DHT11 sensor to measure ambient temperature and 
 ---
 # PICTURES
 ## TEAM PICTURES
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/9df28bd2-ff29-4a23-af98-29138cdcc5b7" />
+![teamofficial](https://github.com/user-attachments/assets/207e2ca7-d549-4aed-8e22-5017f645b4b7)
 
-Left: David , Middle: Gabriel, Right: Vedran
+Left: Gabriel , Middle: David, Right: Vedran
+
+
+
+![funnypic](https://github.com/user-attachments/assets/2f8decce-c092-4fda-a867-cc29cf9c70f9)
+Funny picture
 
 
 
