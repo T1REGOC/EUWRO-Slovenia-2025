@@ -27,7 +27,7 @@ https://github.com/T1REGOC/WRO-2025-Season
 
 
 # PROBLEM
-The goal of the Future Engineers WRO category is to design a fully autonomous vehicle that completes two different challenges in 3 minutes. The direction of the vehicles movement, interior walls position and their size in both challenges is randomized before the start of the round, so the vehicle should recognize whether to turn left or right by itself. 
+The goal of the Future Engineers WRO category is to design a fully autonomous vehicle that completes two different challenges in 3 minutes. The direction of the vehicles movement, position of the interior walls  and their size in both challenges is randomized before the start of the round, so the vehicle should recognize whether to turn left or right by itself. 
 This is our playfield:
 <br><br>
     
@@ -61,7 +61,7 @@ Now that we are lined up to the wall we dont want to steer until we actually nee
 - Servo SG90 ( Why we chose it: reliable, small, previusly available to us )
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
-- Yellow TT Gear Motor ( Why we chose it: enough torque, previously available to us, reliable ) 
+- Yellow TT Gear Motor ( Why we chose it: enough torque (further explained later on) , previously available to us, reliable ) 
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
 - HC - SRO4 Ultrasonic sensor (x6)
@@ -82,13 +82,14 @@ Now that we are lined up to the wall we dont want to steer until we actually nee
 
 
 # MOBILITY MANAGMENT
-Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the rear  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
+Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the rear  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not have to print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
 
-The round pillars that rise from the pplatforms are holders for OUR OWN PCB. 
+The round pillars that rise from the pplatforms are holders for the protoboard. 
 
 ## DRIVING
-For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. We stabillised it to the platform by designing a holder for it. 
-Torque 1.40 kg/cm
+For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. 
+
+
 Motor torgue – 0,8kg / cm 
 Gear output torque – 1.6kg/cm  ( gear ratio == 1:2 ) 
 Torque on wheels – 1.4 kg/cm ( gear output torque  - min. 10%)
@@ -99,26 +100,28 @@ T = (Mt * 2) – (Mt*2 *10%)
 
 T = Final torque on wheels
 Mt – Motor torque
+
+We stabillised it to the platform by designing a holder for it. It is placed longitunally. 
 With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission.
 Why helix gears?
 We thought about using double helix gears because they have a great grip, but considering that we wanted most of the parts to be modular, the double helix gears would be harder to dismantle and mantle each time. 
-To the second, bigger gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. 
-Why helix gears?
-We thought about using double helix gears because they have a great grip, but considering that we wanted most of the parts to be modular, the double helix gears would be harder to dismantle and mantle each time. 
+To the second, drive gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. They have plates so that they don't move left / right thorugh the gear. At the end there is a rectangular hold for the wheels. 
+
 
 Here it is all together:
 
 <img width="984" height="723" alt="image" src="https://github.com/user-attachments/assets/dc01d511-1438-4414-9b53-da198ae68498" /> 
 
 ## STEERING
-For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it seemed more stable than pivot point turning or others. 
+For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it
+seemed more stable than pivot point turning or others. 
 This is an example of the Ackermann's steering system.
 
 Max. Steering angle == 30°
 
 <img width="1379" height="507" alt="image" src="https://github.com/user-attachments/assets/dc9a3a80-8cbf-4347-83f5-d468f4b4e1aa" />
 
-You design a servo addon that rotates the middle connector. The two side arms are pivotted at one point and on the other connected to the middle shaft. On the arms go wheels. Then just cover it up so that the force doesn't bring it all up. 
+You design a servo addon that rotates the middle connector. The two side motor hubs are pivotted at one point and on the other connected to the middle shaft. On the hubs go wheels. When the servo rotates, the addon rotates with it and moves the connector left aand right. Then the motor hubs rotate because of the pivot on the other side.  
 
 Considering that upfront we don't have driving power, the wheels must be able to rotate freely. So the shaft that they go on is a bit lose, so the wheels have the abilty to rotate and then just tighten it up with a designed screw. The wheels will spin when the 
 drive wheels start to spin.
