@@ -59,31 +59,40 @@ Now that we are lined up to the wall we dont want to steer until we actually nee
    
 # ENGINEERING MATERIALS
 - Servo SG90 (23 x 12 x 29 mm) ( Why we chose it: reliable, small, previusly available to us )
+  datasheet: http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
 
-- Yellow TT Gear Motor (71 × 22 × 37 mm) ( Why we chose it: enough torque (further explained later on) , previously available to us, reliable )  
+- Yellow TT Gear Motor (71 × 22 × 37 mm) ( Why we chose it: enough torque (further explained later on) , previously available to us, reliable )
+  datasheet: https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/3777_Web.pdf 
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
  
 
 - HC - SRO4 Ultrasonic sensor (x6) (43 x 20 x 15 mm)
+  datasheet: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
 
 
 - Raspberry Pi Camera v2 (25mm x 23mm x 9mm)
+  datasheet: https://www.farnell.com/datasheets/2056179.pdf?_ga=1.152577328.880870297.1479740269
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
  
 
 - DHT11 (15.5 x 12 x 5.5 mm)
+  datasheet: https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf?srsltid=AfmBOoocSbbt72sD9DrLTBa9M8rGoYf0iez5jERTHabl5XzhezwGsCVP
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
  
 
 - Arduino Uno (69 x 54 mm)
+  datasheet: https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
 
 
 - Raspbbery Pi 4 (86 x 57 mm)
+  datasheet: https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf
 <img width="225" height="200" alt="image" src="https://github.com/user-attachments/assets/1a91165c-ba4a-4d1d-a9f9-3d6a9ce4c3ae" />
+
+-PLA (3D printing materials)
 
 
 
