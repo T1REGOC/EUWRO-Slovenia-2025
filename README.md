@@ -45,10 +45,10 @@ By thinking a little bit you can see that if your direction is clockwise you wil
 
 ### OBSTACLE CHALLENGE 
 In the obstacle challenge, once the robot starts, its goal is again to complete 3 laps but now other than avoiding walls it has to avoid red and green pillars which are in the way. Depending on the color 
-it passes the pillars either from the left or the right. Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
+it passes the pillars either from the left or the right (when he sees a red pillar he turns right, and a green pillar he turns left). Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
 So how did we do it? We first thought about using just RGB and opencv, but we researched about the color formats and we did not want to use RGB after that because we found the superior one: HSV(Hue, Saturation, Value). So you might ask why we use this instead of RGB, its simple:
-1. It seperates color(hue) from brightness(value) and saturation.
+1. It seperates tint (hue) from brightness(value) and saturation (color intensity).
 2. It is more robust to lighting changes than RGB.
 3. It makes it easier to define color ranges for masking
 4. RGB mixes color and brightness, so the same color can look very different under different lighting.
@@ -58,25 +58,37 @@ Now we fixed the problem with the pillars, we gotta get the parking right, for p
 Now that we are lined up to the wall we dont want to steer until we actually need to park in, so now we look for the parking also using ultrasonic sensors but now looking solely on the back side sensor, why? Because the parking walls are 20cm wide and passing by our sensor would see this(25,25,27,28,28,2,2,28) so if you dont understand those would be the example readings from the sensor and we knew when we hit the parking spot when we would hit a "drastic change" often going in a number that is under 10cm, but we cant steer yet because we hit the first part of the parking and we want to parralel park so we need to hit the second part of the parking, we just go straight and look for another drastic change again, when we see it that means that the back side sensor(almost where the back wheels are) is at the second part of the parking, so now we reverse and steer until our back sensor hits under 5cm and then go forward and steer to line up.
    
 # ENGINEERING MATERIALS
-- Servo SG90 ( Why we chose it: reliable, small, previusly available to us )
+- Servo SG90 ( Why we chose it: reliable, small, previusly available to us ), datasheet: https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf
+  
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
-- Yellow TT Gear Motor ( Why we chose it: enough torque, previously available to us, reliable ) 
+- Yellow TT Gear Motor ( Why we chose it: enough torque, previously available to us, reliable ), datasheet: https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/3777_Web.pdf
+  
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
 - HC - SRO4 Ultrasonic sensor (x6)
+datasheet: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+  
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
 
 - Raspberry Pi Camera v2
+  datasheet: https://www.farnell.com/datasheets/2056179.pdf?_ga=1.152577328.880870297.1479740269
+  
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
 
 - DHT11
+  datasheet: https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf?srsltid=AfmBOoqI_RamoCzzaPVhwMJwwe8ItdXxe6bBBktzuj16JOkPe9lx6xjf
+  
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
 
 - Arduino Uno
+  datasheet: https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf
+  
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
 
 - Raspbbery Pi 4
+  datasheet: https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf
+  
 <img width="225" height="200" alt="image" src="https://github.com/user-attachments/assets/1a91165c-ba4a-4d1d-a9f9-3d6a9ce4c3ae" />
 
 
