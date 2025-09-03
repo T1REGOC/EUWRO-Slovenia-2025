@@ -58,25 +58,31 @@ Now we fixed the problem with the pillars, we gotta get the parking right, for p
 Now that we are lined up to the wall we dont want to steer until we actually need to park in, so now we look for the parking also using ultrasonic sensors but now looking solely on the back side sensor, why? Because the parking walls are 20cm wide and passing by our sensor would see this(25,25,27,28,28,2,2,28) so if you dont understand those would be the example readings from the sensor and we knew when we hit the parking spot when we would hit a "drastic change" often going in a number that is under 10cm, but we cant steer yet because we hit the first part of the parking and we want to parralel park so we need to hit the second part of the parking, we just go straight and look for another drastic change again, when we see it that means that the back side sensor(almost where the back wheels are) is at the second part of the parking, so now we reverse and steer until our back sensor hits under 5cm and then go forward and steer to line up.
    
 # ENGINEERING MATERIALS
-- Servo SG90 ( Why we chose it: reliable, small, previusly available to us )
+- Servo SG90 (23 x 12 x 29 mm) ( Why we chose it: reliable, small, previusly available to us )
 <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/297e06de-a4c1-44d1-a43a-930222bc18a4" />
 
-- Yellow TT Gear Motor ( Why we chose it: enough torque (further explained later on) , previously available to us, reliable ) 
-<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
 
-- HC - SRO4 Ultrasonic sensor (x6)
+- Yellow TT Gear Motor (71 × 22 × 37 mm) ( Why we chose it: enough torque (further explained later on) , previously available to us, reliable )  
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0f006b9b-f0c9-4bdb-be62-2b6088ba5296" />
+ 
+
+- HC - SRO4 Ultrasonic sensor (x6) (43 x 20 x 15 mm)
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/12170dc7-47c8-42e2-a1d5-d2da560281ac" />
 
-- Raspberry Pi Camera v2
+
+- Raspberry Pi Camera v2 (25mm x 23mm x 9mm)
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/9018aa25-35b8-4681-9f61-39e590815c28" />
+ 
 
-- DHT11
+- DHT11 (15.5 x 12 x 5.5 mm)
 <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/e7c28bec-eb27-4171-b5b0-017d9478bc55" />
+ 
 
-- Arduino Uno
+- Arduino Uno (69 x 54 mm)
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/07404523-dd7a-4f33-982c-68c886350989" />
 
-- Raspbbery Pi 4
+
+- Raspbbery Pi 4 (86 x 57 mm)
 <img width="225" height="200" alt="image" src="https://github.com/user-attachments/assets/1a91165c-ba4a-4d1d-a9f9-3d6a9ce4c3ae" />
 
 
@@ -105,7 +111,8 @@ We stabillised it to the platform by designing a holder for it. It is placed lon
 With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission.
 Why helix gears?
 We thought about using double helix gears because they have a great grip, but considering that we wanted most of the parts to be modular, the double helix gears would be harder to dismantle and mantle each time. 
-To the second, drive gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. They have plates so that they don't move left / right thorugh the gear. At the end there is a rectangular hold for the wheels. 
+The first, main gear has 16 teeth and is 15.6mm in diameter, 32.5mm in lenght. From one side it is span by the motor, and from the other, just to stop its lean it is supported by a little holder. 
+To the second, drive gear (30mm diameter, 32.5mm, 32 teeth ), we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. They have plates so that they don't move left / right thorugh the gear. At the end there is a rectangular hold for the wheels. 
 
 
 Here it is all together:
@@ -116,8 +123,6 @@ Here it is all together:
 For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it
 seemed more stable than pivot point turning or others. 
 This is an example of the Ackermann's steering system.
-
-Max. Steering angle == 30°
 
 <img width="1379" height="507" alt="image" src="https://github.com/user-attachments/assets/dc9a3a80-8cbf-4347-83f5-d468f4b4e1aa" />
 
@@ -179,6 +184,7 @@ Left: Gabriel , Middle: David, Right: Vedran
 
 
 ![funnypic](https://github.com/user-attachments/assets/2f8decce-c092-4fda-a867-cc29cf9c70f9)
+
 Funny picture
 
 
@@ -189,26 +195,24 @@ Funny picture
 ## VEHICLE PICTURES
 Rear
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/3df465c7-5cff-4527-9bc0-783ff32a6756" />
-
-Bottom
-
-<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/c7ef07c7-b1bf-47fe-8ef7-7cdf9aff0da4" />
-
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/b5db210c-d89a-446a-8008-930e9e548ac4" />
 
 Left
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/a8083a93-98ad-4f63-b5cf-c79db2270438" />
-
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/f9ae1fe2-99b1-4299-b2f9-ddba17bd4d04" />
 
 Right
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/e3d95251-96f0-4648-914e-dbaabc4be084" />
-
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/77d2f283-e3fb-4a7e-9fd6-3e00d124771e" />
 
 Top
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/27364e1e-dcbb-43c8-a8e1-6c0065c9c961" />
 
-<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/657b4ef5-ecfd-4628-8562-ccc09c78c346" />
+
+Front
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/4faac1b6-d960-455d-857e-ce794aa0047b" />
+
+
 
 
 
