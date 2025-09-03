@@ -45,10 +45,10 @@ By thinking a little bit you can see that if your direction is clockwise you wil
 
 ### OBSTACLE CHALLENGE 
 In the obstacle challenge, once the robot starts, its goal is again to complete 3 laps but now other than avoiding walls it has to avoid red and green pillars which are in the way. Depending on the color 
-it passes the pillars either from the left or the right. Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
+it passes the pillars either from the left or the right (robot passes pillar on the right if he sees red, and on the left if he sees green). Once the 3 laps are complete and robot is back in its starting area it should parallely park in the previously set
 parking spot. The parking spot is 1.5x the lenght of the vehicle. The vehicle may also start from the parking spot. 
 So how did we do it? We first thought about using just RGB and opencv, but we researched about the color formats and we did not want to use RGB after that because we found the superior one: HSV(Hue, Saturation, Value). So you might ask why we use this instead of RGB, its simple:
-1. It seperates color(hue) from brightness(value) and saturation.
+1. It seperates color(hue) from brightness(value) and saturation colour intensity.
 2. It is more robust to lighting changes than RGB.
 3. It makes it easier to define color ranges for masking
 4. RGB mixes color and brightness, so the same color can look very different under different lighting.
@@ -92,6 +92,8 @@ Considering we 3D designed everything ourselves, we decided to split the vehicle
 
 The round pillars that rise from the pplatforms are holders for the protoboard. 
 
+Because of our modularity, considering the robot isn't printed as whole it bends more, so we decided to print little bend preventers. They are designed so that thay fight very tightly over the connction of the segments. They are U shaped, 20 mm wide. 
+
 ## DRIVING
 For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. 
 
@@ -130,6 +132,8 @@ You design a servo addon that rotates the middle connector. The two side motor h
 
 Considering that upfront we don't have driving power, the wheels must be able to rotate freely. So the shaft that they go on is a bit lose, so the wheels have the abilty to rotate and then just tighten it up with a designed screw. The wheels will spin when the 
 drive wheels start to spin.
+
+Because thec camera is infront of the steering, but has to cross over the steering to get to the raspberry, we designed a little bridge so that the camera cable doesn't block our steering. 
 
 Max. Steering angle == 30°
 
@@ -219,6 +223,9 @@ Front
 <br><br><br>
 # ASSEMBLY INSTRUCTIONS
 ## HARDWARE
+
+List of materials:
+All of the 3d prints, and engineering materials + M2 & M3 set of bolts amd nuts
 
 ### 1. PLATFORM
 Place the front / rear platform next to the middle one so that the holes for the screwes corespond and then screw it. 
