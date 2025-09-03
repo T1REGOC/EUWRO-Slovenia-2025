@@ -82,15 +82,29 @@ Now that we are lined up to the wall we dont want to steer until we actually nee
 
 
 # MOBILITY MANAGMENT
-Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the back  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
+Considering we 3D designed everything ourselves, we decided to split the vehicle in three parts: the front ( steering ), the rear  ( drive ) and the middle ( connection beetween two ).They are connected so that the top part of the drive and the bottom part of the middle part allign and then we screw through both of them.  We did that so that if there is failure for example the steering, we do not haveto print it all again, but just the steering part. That is also why we tried to design everything so that we can tighten it by screws. 
 
 The round pillars that rise from the pplatforms are holders for OUR OWN PCB. 
 
 ## DRIVING
 For the driving power, the motor, we decided to go with TT Yellow Gear Motor because it was strong enough, reliable, affordabble and available to us. We stabillised it to the platform by designing a holder for it. 
-With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission. We used [helix gears](https://www.google.com/search?q=helix+gears&ie=UTF-8) so that
-they do not skip and have tighter grip. To the second, bigger gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. 
-At the ends of those shafts is a rectangular shaft so that we avoid the shaft spining and not rotating the wheel. 
+Torque 1.40 kg/cm
+Motor torgue – 0,8kg / cm 
+Gear output torque – 1.6kg/cm  ( gear ratio == 1:2 ) 
+Torque on wheels – 1.4 kg/cm ( gear output torque  - min. 10%)
+
+Formula for torque when the gear ratio is 1:2
+
+T = (Mt * 2) – (Mt*2 *10%)
+
+T = Final torque on wheels
+Mt – Motor torque
+With two helix gears, whose ratio is 1:2 (so that we gain torque since the speed is not as necessary), we created a transmission.
+Why helix gears?
+We thought about using double helix gears because they have a great grip, but considering that we wanted most of the parts to be modular, the double helix gears would be harder to dismantle and mantle each time. 
+To the second, bigger gear, we created a plus shaped hole since we needed the shaft to rotate with the gear. The two shafts are also plus shaped and connected by a plus shaped connector. 
+Why helix gears?
+We thought about using double helix gears because they have a great grip, but considering that we wanted most of the parts to be modular, the double helix gears would be harder to dismantle and mantle each time. 
 
 Here it is all together:
 
@@ -100,12 +114,16 @@ Here it is all together:
 For the steering, we went with a always reliable, stable, small, affordable and available SG90 servo motor. We decided on the Ackermann's steering system since it seemed more stable than pivot point turning or others. 
 This is an example of the Ackermann's steering system.
 
+Max. Steering angle == 30°
+
 <img width="1379" height="507" alt="image" src="https://github.com/user-attachments/assets/dc9a3a80-8cbf-4347-83f5-d468f4b4e1aa" />
 
-You design a servo addon that rotates the middle shaft. The two side arms are pivotted at one point and on the other connected to the middle shaft. On the arms go wheels. Then just cover it up so that the force doesn't bring it all up. 
+You design a servo addon that rotates the middle connector. The two side arms are pivotted at one point and on the other connected to the middle shaft. On the arms go wheels. Then just cover it up so that the force doesn't bring it all up. 
 
 Considering that upfront we don't have driving power, the wheels must be able to rotate freely. So the shaft that they go on is a bit lose, so the wheels have the abilty to rotate and then just tighten it up with a designed screw. The wheels will spin when the 
 drive wheels start to spin.
+
+Max. Steering angle == 30°
 
 <img width="757" height="528" alt="image" src="https://github.com/user-attachments/assets/63f58725-53cf-4815-b6b5-5b74bd32e480" />
   
@@ -166,7 +184,7 @@ Funny picture
 
 
 ## VEHICLE PICTURES
-Back
+Rear
 
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/3df465c7-5cff-4527-9bc0-783ff32a6756" />
 
@@ -196,7 +214,7 @@ Top
 ## HARDWARE
 
 ### 1. PLATFORM
-Place the front / back platform next to the middle one so that the holes for the screwes corespond and then screw it. 
+Place the front / rear platform next to the middle one so that the holes for the screwes corespond and then screw it. 
 <br>
 
 ### 2. DRIVE
